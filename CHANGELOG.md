@@ -1,3 +1,53 @@
+## [1.7.1](https://github.com/vuejs/vuepress/compare/v1.7.0...v1.7.1) (2020-10-15)
+
+
+### Bug Fixes
+
+* **$core:** add missing styles for OutboundLink ([#2662](https://github.com/vuejs/vuepress/issues/2662)) ([e2b6641](https://github.com/vuejs/vuepress/commit/e2b6641))
+* **$core:** reference correct canonical Url frontmatter property (fix [#2665](https://github.com/vuejs/vuepress/issues/2665)) ([fbf5e5d](https://github.com/vuejs/vuepress/commit/fbf5e5d))
+
+
+
+# [1.7.0](https://github.com/vuejs/vuepress/compare/v1.6.0...v1.7.0) (2020-10-13)
+
+
+### Bug Fixes
+
+* **$core:** [#2627](https://github.com/vuejs/vuepress/issues/2627) Dup ID violates HTML5-4 ([#2650](https://github.com/vuejs/vuepress/issues/2650)) ([931e7d9](https://github.com/vuejs/vuepress/commit/931e7d9))
+* adds accessibility to code-group component ([#2630](https://github.com/vuejs/vuepress/issues/2630)) ([35865ec](https://github.com/vuejs/vuepress/commit/35865ec))
+* scroll hash encoded when non-english chars are used fix [#2633](https://github.com/vuejs/vuepress/issues/2633) ([#2639](https://github.com/vuejs/vuepress/issues/2639)) ([5fcbd88](https://github.com/vuejs/vuepress/commit/5fcbd88))
+* textlint bug causing PR's to fail checks fix [#2636](https://github.com/vuejs/vuepress/issues/2636) ([#2637](https://github.com/vuejs/vuepress/issues/2637)) ([64e92ca](https://github.com/vuejs/vuepress/commit/64e92ca))
+
+
+### Features
+
+* **$core:** add canonical link to frontmatter ([#2658](https://github.com/vuejs/vuepress/issues/2658)) ([ff6c51a](https://github.com/vuejs/vuepress/commit/ff6c51a))
+
+
+
+# [1.6.0](https://github.com/vuejs/vuepress/compare/v1.5.4...v1.6.0) (2020-09-25)
+
+
+### Features
+
+* **$theme-default:** add code group and code block components ([#2594](https://github.com/vuejs/vuepress/issues/2594)) ([394c4f6](https://github.com/vuejs/vuepress/commit/394c4f6))
+* **$theme-default:** inform screen readers link opens in new tab/window (fix [#2601](https://github.com/vuejs/vuepress/issues/2601)) ([#2603](https://github.com/vuejs/vuepress/issues/2603)) ([8d10119](https://github.com/vuejs/vuepress/commit/8d10119))
+
+
+
+## [1.5.4](https://github.com/vuejs/vuepress/compare/v1.5.3...v1.5.4) (2020-08-23)
+
+
+### Bug Fixes
+
+* **$core:** decode regularPath when generate router config (fix [#1946](https://github.com/vuejs/vuepress/issues/1946)) ([#1947](https://github.com/vuejs/vuepress/issues/1947)) ([dd26c7c](https://github.com/vuejs/vuepress/commit/dd26c7c))
+* **$shared-utils:** fix date parse logic for permalinks ([#2181](https://github.com/vuejs/vuepress/issues/2181)) ([d4d0380](https://github.com/vuejs/vuepress/commit/d4d0380))
+* **$shared-utils:** replace diacritics with regex ([#1855](https://github.com/vuejs/vuepress/issues/1855)) ([a03e93d](https://github.com/vuejs/vuepress/commit/a03e93d))
+* **$theme-default:** overlap navbar dropdown menus (fix [#2227](https://github.com/vuejs/vuepress/issues/2227)) ([#2365](https://github.com/vuejs/vuepress/issues/2365)) ([ceb0fa9](https://github.com/vuejs/vuepress/commit/ceb0fa9))
+* **$theme-default:** remove invalidate aria-labelledby on homepage title([#2277](https://github.com/vuejs/vuepress/issues/2277)) ([94a7de4](https://github.com/vuejs/vuepress/commit/94a7de4))
+
+
+
 ## [1.5.3](https://github.com/vuejs/vuepress/compare/v1.5.2...v1.5.3) (2020-08-05)
 
 
